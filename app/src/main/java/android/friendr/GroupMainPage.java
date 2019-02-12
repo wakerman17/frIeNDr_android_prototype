@@ -20,6 +20,7 @@ public class GroupMainPage extends AppCompatActivity {
             public void onClick(View arg0) {
                 Intent nextWindow = new Intent(GroupMainPage.this, CreateEvent.class);
                 startActivity(nextWindow);
+                //Test
             }
         });
     }
