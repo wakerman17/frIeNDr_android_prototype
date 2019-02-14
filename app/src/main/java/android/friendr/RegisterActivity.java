@@ -1,4 +1,4 @@
-package com.example.friendr;
+package android.friendr;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
