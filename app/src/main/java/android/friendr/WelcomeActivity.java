@@ -1,4 +1,4 @@
-package com.example.friendr;
+package android.friendr;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -17,14 +17,14 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
-        btn1 = (Button)findViewById(R.id.signUpID);
-        btn2 = (Button)findViewById(R.id.WCloginBtnID);
+        btn1 = findViewById(R.id.signUpID);
+        btn2 = findViewById(R.id.WCloginBtnID);
 
         btn1.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View view)
             {
-                Intent regIntent = new Intent(WelcomeActivity.this, RegisterActivity.class);
+                Intent regIntent = new Intent(WelcomeActivity.this, WelcomeActivity.class);
                 startActivity(regIntent);
             }
         });
