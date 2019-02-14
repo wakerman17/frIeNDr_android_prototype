@@ -25,6 +25,28 @@
     <string name="group_name">Group name:</string>
     <string name="group_description">Group description:</string>
     <string name="add_group">Add Group</string>
+    
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_loginBtn">Login</string>
+    <string name="login_registerBtn">Register</string>
+    <string name="login_new_user">New user?</string>
+    <string name="reg_full_name">Full Name</string>
+    <string name="reg_Username">Username</string>
+    <string name="reg_date_of_birth">Date of birth</string>
+    <string name="reg_gender">Gender</string>
+    <string name="reg_female">Female</string>
+    <string name="reg_male">Male</string>
+    <string name="reg_visible_to_others">Visible to others</string>
+    <string name="reg_ok">OK</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_confirm_password">Confirm password</string>
+    <string name="reg_register">Register</string>
+    <string name="home_friendr">FrIeNDr</string>
+    <string name="home_slogan">Real friendship starts here!</string>
+    <string name="home_sign_up">Sign up</string>
+    <string name="home_or">OR</string>
+    <string name="home_log_in">Log in</string>
 
     <string-array name="interests_array">
         <item>Mobile</item>
