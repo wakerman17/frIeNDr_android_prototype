@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/orange_gradient_1">
 
     <LinearLayout
         android:layout_width="345dp"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_orange_dark"
+        android:background="#66E27E20"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625">
 
         <TextView
             android:layout_width="wrap_content"
@@ -52,12 +53,12 @@
         android:id="@+id/linearLayout2"
         android:layout_width="345dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="196dp"
-        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="160dp"
+        android:background="#66E27E20"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -99,13 +100,13 @@
                 android:id="@+id/to_general_page"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Go to groupe page" />
+                android:text="@string/go_to_group_page" />
 
             <Button
                 android:id="@+id/to_general_chat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Go to general chat" />
+                android:text="@string/go_to_general_chat" />
         </LinearLayout>
 
         <Button
@@ -120,19 +121,19 @@
         android:id="@+id/linearLayout"
         android:layout_width="346dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="24dp"
+        android:background="#66E27E20"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/upcomming_events"
+            android:text="@string/upcoming_events"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
