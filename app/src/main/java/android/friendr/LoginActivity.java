@@ -16,8 +16,18 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         btn2 = findViewById(R.id.registerButton);
+        Button loginButton = findViewById(R.id.loginButton);
 
         btn2.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View view)
+            {
+                Intent regIntent = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(regIntent);
+            }
+        });
+
+        loginButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View view)
             {

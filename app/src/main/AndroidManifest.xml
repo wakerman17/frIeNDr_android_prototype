@@ -14,9 +14,10 @@
         <activity android:name="android.friendr.GroupMainPage" />
         <activity android:name="android.friendr.CreateGroup" />
         <activity android:name="android.friendr.FindNewGroup" />
-        <activity android:name="android.friendr.WelcomeActivity" />
+        <activity android:name="android.friendr.Index"/>
+        <activity android:name="android.friendr.RegisterActivity"/>
         <activity android:name="android.friendr.LoginActivity" />
-        <activity android:name="android.friendr.Index">
+        <activity android:name="android.friendr.WelcomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

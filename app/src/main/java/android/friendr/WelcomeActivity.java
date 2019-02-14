@@ -24,7 +24,7 @@ public class WelcomeActivity extends AppCompatActivity {
         {
             public void onClick(View view)
             {
-                Intent regIntent = new Intent(WelcomeActivity.this, WelcomeActivity.class);
+                Intent regIntent = new Intent(WelcomeActivity.this, RegisterActivity.class);
                 startActivity(regIntent);
             }
         });
