@@ -5,6 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/orange_gradient_1"
         tools:context=".CreateEvent">
 
     <LinearLayout
@@ -19,14 +20,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="Event title"
+                android:hint="Event title"
                 android:ems="10"
                 android:id="@+id/editText2"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="Event description"
+                android:hint="Event description"
                 android:ems="10"
                 android:id="@+id/editText3"/>
         <EditText
@@ -38,13 +39,13 @@
                 android:longClickable="false"
                 android:ems="10"
                 android:id="@+id/event_date"
-                android:text="Event date"/>
+                android:hint="Event date"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
                 android:ems="10"
-                android:id="@+id/editText5" android:text="Max number of attendees"/>
+                android:id="@+id/editText5" android:hint="Max number of attendees"/>
         <Button
                 android:text="Save"
                 android:layout_width="match_parent"
