@@ -81,7 +81,7 @@
             android:layout_marginLeft="5dp"
             android:text="@string/mobile_development"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
         <Switch
             android:id="@+id/switch4"
@@ -110,6 +110,7 @@
                 android:id="@+id/to_general_chat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="toMyGroup"
                 android:text="Go to general chat" />
         </LinearLayout>
 
