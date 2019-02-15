@@ -22,14 +22,14 @@
                 android:inputType="textPersonName"
                 android:hint="Event title"
                 android:ems="10"
-                android:id="@+id/editText2"/>
+                android:id="@+id/title"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:hint="Event description"
                 android:ems="10"
-                android:id="@+id/editText3"/>
+                android:id="@+id/description"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -45,10 +45,11 @@
                 android:layout_height="wrap_content"
                 android:inputType="number"
                 android:ems="10"
-                android:id="@+id/editText5" android:hint="Max number of attendees"/>
+                android:id="@+id/maxAttendees" android:hint="Max number of attendees"/>
         <Button
                 android:text="Save"
                 android:layout_width="match_parent"
+                android:onClick="createEvent"
                 android:layout_height="wrap_content" android:id="@+id/button"/>
         <Button
                 android:text="Reset"
