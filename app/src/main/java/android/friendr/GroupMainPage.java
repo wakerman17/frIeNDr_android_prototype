@@ -18,9 +18,20 @@ public class GroupMainPage extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Intent nextWindow = new Intent(GroupMainPage.this, GroupMainPage.class);
+                Intent nextWindow = new Intent(GroupMainPage.this, CreateEvent.class);
                 startActivity(nextWindow);
             }
         });
     }
+
+    public void toGroup(View view) {
+        Intent eventIntent = new Intent(this, GroupChat.class);
+        startActivity(eventIntent);
+    }
+
+    public void toEvent(View view) {
+        Intent eventIntent = new Intent(this, EventChat.class);
+        startActivity(eventIntent);
+    }
+
 }

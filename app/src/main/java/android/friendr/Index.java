@@ -36,6 +36,17 @@ public class Index extends AppCompatActivity {
         });
     }
 
+    public void toEvent(View view) {
+        Intent eventIntent = new Intent(this, EventChat.class);
+        startActivity(eventIntent);
+    }
+
+    public void toMyGroup(View view) {
+        Intent groupChatIntent = new Intent(this, GroupChat.class);
+        startActivity(groupChatIntent);
+    }
+
+
     public void toggle_group_goto_1(View v) {
         groupGoto1.setVisibility( groupGoto1.isShown()
                 ? View.GONE
