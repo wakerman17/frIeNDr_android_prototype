@@ -21,14 +21,15 @@
                 <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" android:id="@+id/header"
+                        android:layout_height="match_parent"
+                        android:id="@+id/header"
                         android:gravity="top">
                     <TextView
-                            android:text="Mobile App Dev"
+                            android:text="Mobile meeting"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" android:id="@+id/textView12" android:textSize="24sp"/>
                     <TextView
-                            android:text="Group for us who want to develop awesome apps"
+                            android:text="Preparation for the next assigment"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" android:id="@+id/textView13"/>
                     <LinearLayout
