@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
         android:background="#66E27E20"
-        android:gravity="center_horizontal"
+
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.545"
@@ -64,6 +64,7 @@
 
         <TextView
             android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_height="wrap_content"
             android:text="@string/your_groups"
             android:textSize="24sp"
@@ -82,12 +83,12 @@
 
         <Switch
             android:id="@+id/switch4"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:focusable="true"
             android:onClick="toggle_group_goto_1"
-            android:text="More info" />
+            android:text="@string/more_info" />
 
         <LinearLayout
             android:id="@+id/group_goto_1"
